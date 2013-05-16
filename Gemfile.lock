@@ -171,7 +171,7 @@ DEPENDENCIES
   growl (= 1.0.3)
   guard-rspec
   jquery-rails
-  pg (= 0.12.2)
+  pg
   rails (= 3.2.12)
   rb-fsevent (= 0.9.1)
   rspec-rails (~> 2.0)
