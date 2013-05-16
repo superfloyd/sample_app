@@ -1,3 +1,3 @@
-Welcome to my Sample Application made on RoR
+#Welcome to my Sample Application made on RoR
 
 David 
