@@ -6,7 +6,7 @@ gem 'rails', '3.2.12'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
-#gem 'pg'
+gem 'pg'
 
 gem "spork-rails"
 gem 'spork', '~> 1.0rc'
@@ -29,7 +29,7 @@ group :development do
   gem 'rspec-rails', '~> 2.0'
    gem 'capybara', '1.1.2'
    gem 'guard-rspec'
-   gem 'sqlite3'
+  # gem 'sqlite3'
 end 
 
 
@@ -38,10 +38,6 @@ group :test do
   gem 'rb-fsevent', '0.9.1', :require => false
   gem 'growl', '1.0.3'
     
-end
-
-group :production do
- # gem 'pg'
 end
 
 
