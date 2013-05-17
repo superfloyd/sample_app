@@ -9,8 +9,10 @@
     <![endif]-->
      <%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
      <%= stylesheet_link_tag 'blueprint/print', :media => 'print' %>
+     <%= stylesheet_link_tag 'blueprint/custom', :media => 'screen' %>
   </head>
   <body>
+
   <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
@@ -28,6 +30,6 @@
     <div class="container">
       <%= yield %>
     </div>
-
+  
   	 </body>
 </html>
