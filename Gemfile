@@ -30,6 +30,7 @@ group :development do
    gem 'capybara', '1.1.2'
    gem 'guard-rspec'
    gem 'sqlite3'
+   gem 'annotate', '2.5.0'
 end 
 
 
