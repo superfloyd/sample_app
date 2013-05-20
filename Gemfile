@@ -26,17 +26,19 @@ end
 gem 'jquery-rails'
 
 group :development do
-  gem 'rspec-rails', '~> 2.0'
+   gem 'rspec-rails', '~> 2.0'
+   gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
    gem 'capybara', '1.1.2'
    gem 'guard-rspec'
    gem 'sqlite3'
    gem 'annotate', '2.5.0'
+  
 end 
 
 
 group :test do
   gem 'capybara', '1.1.2'
-  gem 'rb-fsevent', '0.9.1', :require => false
+  gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
   gem 'growl', '1.0.3'    
 end
 

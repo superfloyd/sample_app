@@ -178,7 +178,7 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 3.2.12)
-  rb-fsevent (= 0.9.1)
+  rb-fsevent
   rspec-rails (~> 2.0)
   sass-rails (~> 3.2.3)
   spork (~> 1.0rc)
