@@ -28,7 +28,7 @@ gem 'jquery-rails'
 
 group :development do
    gem 'rspec-rails', '~> 2.0'
-   gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
+   gem 'rb-fsevent'
    gem 'capybara', '1.1.2'
    gem 'guard-rspec'
    gem 'sqlite3'
