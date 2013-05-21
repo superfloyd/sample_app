@@ -39,7 +39,7 @@ end
 
 group :test do
   gem 'capybara', '1.1.2'
-  gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
+ # gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
   gem 'growl', '1.0.3'    
 end
 
