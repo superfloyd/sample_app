@@ -11,7 +11,8 @@ gem 'bootstrap-sass', '2.1'
 gem 'pg'
 
 gem "spork-rails"
-gem 'spork', '~> 1.0rc'
+gem 'spork'
+gem 'gravatar_image_tag'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -32,7 +33,7 @@ group :development do
    gem 'guard-rspec'
    gem 'sqlite3'
    gem 'annotate', '2.5.0'
-  
+
 end 
 
 
