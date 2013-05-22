@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.12'
 
 gem 'bootstrap-sass', '2.1'
+gem 'bcrypt-ruby'
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -41,6 +43,7 @@ group :test do
   gem 'capybara', '1.1.2'
  # gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
   gem 'growl', '1.0.3'    
+  gem 'factory_girl_rails', '4.1.0'
 end
 
 
