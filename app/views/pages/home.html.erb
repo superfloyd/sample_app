@@ -1,9 +1,13 @@
-<h1>Home Page</h1>
-<p>
-  This is the home page for the
-  <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-      sample application.
-</p>
-<p align="center">
-<%= link_to "Sign Up now!", '#', :class => "btn btn-success" %> 
-</p>
+<div class="center hero-unit">
+  <h1>Welcome to my RoR sample App, :)</h1>
+
+  <h2>
+    home page for the
+    <a href="http://http://the-floyd.herokuapp.com//">  David's Sample App</a>
+   
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>

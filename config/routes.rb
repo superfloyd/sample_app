@@ -1,5 +1,6 @@
 SampleApp::Application.routes.draw do
-
+  
+  get "users/new"
  
    root to: 'pages#home'
 
@@ -10,7 +11,7 @@ SampleApp::Application.routes.draw do
 
 
 
-
+  match '/signup',  to: 'users#new'
   
  
 
